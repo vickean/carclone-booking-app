@@ -1,15 +1,11 @@
 import * as express from "express";
 import * as Database from "better-sqlite3";
-const db = new Database("foobar.db", { verbose: console.log });
+const db = new Database("carclone.db", { verbose: console.log });
 const app = express();
 
 app.get("/hello", (req, res) => {
    console.log("HELLO!");
    res.send("Hello!");
-});
-
-app.get("/json", (req, res) => {
-   res.json({ msg: "HELLO!" });
 });
 
 app.get("/create/:id", (req, res) => {
