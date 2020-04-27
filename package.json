@@ -1,0 +1,12 @@
+{
+  "name": "carclone-booking-app",
+  "version": "1.0.0",
+  "description": "Simpliflied car inspection booking app",
+  "main": "index.js",
+  "author": "Victor Kean",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "typescript": "^3.8.3"
+  }
+}
