@@ -1,6 +1,5 @@
 {
    "type": "sqlite",
-   "name": "sqlite",
    "database": "./carclone.db",
    "synchronize": true,
    "logging": false,

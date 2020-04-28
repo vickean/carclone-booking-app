@@ -1,0 +1,805 @@
+{
+   "popular": [
+      {
+         "id": "Perodua",
+         "name": "Perodua",
+         "children": [
+            {
+               "id": "Alza",
+               "name": "Alza"
+            },
+            {
+               "id": "Aruz",
+               "name": "Aruz"
+            },
+            {
+               "id": "Axia",
+               "name": "Axia"
+            },
+            {
+               "id": "Bezza",
+               "name": "Bezza"
+            },
+            {
+               "id": "Myvi",
+               "name": "Myvi"
+            },
+            {
+               "id": "Viva",
+               "name": "Viva"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Proton",
+         "name": "Proton",
+         "children": [
+            {
+               "id": "X70",
+               "name": "x70"
+            },
+            {
+               "id": "Exora",
+               "name": "Exora"
+            },
+            {
+               "id": "Inspira",
+               "name": "Inspira"
+            },
+            {
+               "id": "Iriz",
+               "name": "Iriz"
+            },
+            {
+               "id": "Perdana",
+               "name": "Perdana"
+            },
+            {
+               "id": "Persona",
+               "name": "Persona"
+            },
+            {
+               "id": "Preve",
+               "name": "Preve"
+            },
+            {
+               "id": "Saga",
+               "name": "Saga"
+            },
+            {
+               "id": "Satria",
+               "name": "Satria"
+            },
+            {
+               "id": "Suprima s",
+               "name": "Suprima"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Honda",
+         "name": "Honda",
+         "children": [
+            {
+               "id": "Accord",
+               "name": "Accord"
+            },
+            {
+               "id": "Br-v",
+               "name": "BRV"
+            },
+            {
+               "id": "City",
+               "name": "City"
+            },
+            {
+               "id": "Civic",
+               "name": "Civic"
+            },
+            {
+               "id": "Cr-v",
+               "name": "CRV"
+            },
+            {
+               "id": "Hr-v",
+               "name": "HRV"
+            },
+            {
+               "id": "Jazz",
+               "name": "Jazz"
+            },
+            {
+               "id": "Odyssey",
+               "name": "Odyssey"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Toyota",
+         "name": "Toyota",
+         "children": [
+            {
+               "id": "Altis",
+               "name": "Altis"
+            },
+            {
+               "id": "Avanza",
+               "name": "Avanza"
+            },
+            {
+               "id": "Camry",
+               "name": "Camry"
+            },
+            {
+               "id": "C-HR",
+               "name": "CHR"
+            },
+            {
+               "id": "Hilux",
+               "name": "Hilux"
+            },
+            {
+               "id": "Innova",
+               "name": "Innova"
+            },
+            {
+               "id": "Prius",
+               "name": "Prius"
+            },
+            {
+               "id": "Vios",
+               "name": "Vios"
+            },
+            {
+               "id": "Yaris",
+               "name": "Yaris"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Nissan",
+         "name": "Nissan",
+         "children": [
+            {
+               "id": "Almera",
+               "name": "Almera"
+            },
+            {
+               "id": "Grand Livina",
+               "name": "Grand Livina"
+            },
+            {
+               "id": "Latio",
+               "name": "Latio"
+            },
+            {
+               "id": "Navara",
+               "name": "Navara"
+            },
+            {
+               "id": "Serena",
+               "name": "Serena"
+            },
+            {
+               "id": "Sylphy",
+               "name": "Sylphy"
+            },
+            {
+               "id": "Teana",
+               "name": "Teana"
+            },
+            {
+               "id": "X-Trail",
+               "name": "X-Trail"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      }
+   ],
+   "all_brands": [
+      {
+         "id": "Audi",
+         "name": "Audi",
+         "children": [
+            {
+               "id": "A1",
+               "name": "A1"
+            },
+            {
+               "id": "A3",
+               "name": "A3"
+            },
+            {
+               "id": "A4",
+               "name": "A4"
+            },
+            {
+               "id": "A5",
+               "name": "A5"
+            },
+            {
+               "id": "A7",
+               "name": "A7"
+            },
+            {
+               "id": "Q2",
+               "name": "Q2"
+            },
+            {
+               "id": "Q3",
+               "name": "Q3"
+            },
+            {
+               "id": "Q5",
+               "name": "Q5"
+            },
+            {
+               "id": "Q7",
+               "name": "Q7"
+            },
+            {
+               "id": "TT",
+               "name": "TT"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Bmw",
+         "name": "BMW",
+         "children": [
+            {
+               "id": "1 Series",
+               "name": "1 Series"
+            },
+            {
+               "id": "3 Series",
+               "name": "3 Series"
+            },
+            {
+               "id": "5 Series",
+               "name": "5 Series"
+            },
+            {
+               "id": "X1",
+               "name": "X1"
+            },
+            {
+               "id": "X2",
+               "name": "X2"
+            },
+            {
+               "id": "X3",
+               "name": "X3"
+            },
+            {
+               "id": "X4",
+               "name": "X4"
+            },
+            {
+               "id": "X5",
+               "name": "X5"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Ford",
+         "name": "Ford",
+         "children": [
+            {
+               "id": "Focus",
+               "name": "Focus"
+            },
+            {
+               "id": "Fiesta",
+               "name": "Fiesta"
+            },
+            {
+               "id": "Kuga",
+               "name": "Kuga"
+            },
+            {
+               "id": "Mondeo",
+               "name": "Mondeo"
+            },
+            {
+               "id": "Ranger",
+               "name": "Ranger"
+            },
+            {
+               "id": "Ranger Raptor",
+               "name": "Ranger Raptor"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Hyundai",
+         "name": "Hyundai",
+         "children": [
+            {
+               "id": "i10",
+               "name": "i10"
+            },
+            {
+               "id": "i30",
+               "name": "i30"
+            },
+            {
+               "id": "Elantra",
+               "name": "Elantra"
+            },
+            {
+               "id": "Ioniq",
+               "name": "Ioniq"
+            },
+            {
+               "id": "Santa Fe",
+               "name": "Santa Fe"
+            },
+            {
+               "id": "Sonata",
+               "name": "Sonata"
+            },
+            {
+               "id": "Starex",
+               "name": "Starex"
+            },
+            {
+               "id": "Tucson",
+               "name": "Tucson"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Isuzu",
+         "name": "Isuzu",
+         "children": [
+            {
+               "id": "D-Max",
+               "name": "D-Max"
+            },
+            {
+               "id": "MU-X",
+               "name": "MU-X"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Kia",
+         "name": "Kia",
+         "children": [
+            {
+               "id": "Carnival",
+               "name": "Carnival"
+            },
+            {
+               "id": "Cerato",
+               "name": "Cerato"
+            },
+            {
+               "id": "Optima",
+               "name": "Optima"
+            },
+            {
+               "id": "Picanto",
+               "name": "Picanto"
+            },
+            {
+               "id": "Rio",
+               "name": "Rio"
+            },
+            {
+               "id": "Sorento",
+               "name": "Sorento"
+            },
+            {
+               "id": "Sportage",
+               "name": "Sportage"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Lexus",
+         "name": "Lexus",
+         "children": [
+            {
+               "id": "CT",
+               "name": "CT"
+            },
+            {
+               "id": "ES",
+               "name": "ES"
+            },
+            {
+               "id": "GS",
+               "name": "GS"
+            },
+            {
+               "id": "IS",
+               "name": "IS"
+            },
+            {
+               "id": "LX",
+               "name": "LX"
+            },
+            {
+               "id": "NX",
+               "name": "NX"
+            },
+            {
+               "id": "RC",
+               "name": "RC"
+            },
+            {
+               "id": "RX",
+               "name": "RX"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Mazda",
+         "name": "Mazda",
+         "children": [
+            {
+               "id": "Mazda 2",
+               "name": "Mazda 2"
+            },
+            {
+               "id": "Mazda 3",
+               "name": "Mazda 3"
+            },
+            {
+               "id": "Mazda 6",
+               "name": "Mazda 6"
+            },
+            {
+               "id": "BT-50",
+               "name": "BT-50"
+            },
+            {
+               "id": "CX-3",
+               "name": "CX-3"
+            },
+            {
+               "id": "CX-5",
+               "name": "CX-5"
+            },
+            {
+               "id": "CX-8",
+               "name": "CX-8"
+            },
+            {
+               "id": "CX-9",
+               "name": "CX-9"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Mercedes",
+         "name": "Mercedes",
+         "children": [
+            {
+               "id": "A-Class",
+               "name": "A-Class"
+            },
+            {
+               "id": "C-Class",
+               "name": "C-Class"
+            },
+            {
+               "id": "E-Class",
+               "name": "E-Class"
+            },
+            {
+               "id": "S-Class",
+               "name": "S-Class"
+            },
+            {
+               "id": "GLA",
+               "name": "GLA"
+            },
+            {
+               "id": "GLC",
+               "name": "GLC"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "MINI",
+         "name": "MINI",
+         "children": [
+            {
+               "id": "Clubman",
+               "name": "Clubman"
+            },
+            {
+               "id": "Cooper",
+               "name": "Cooper"
+            },
+            {
+               "id": "Countryman",
+               "name": "Countryman"
+            },
+            {
+               "id": "Paceman",
+               "name": "Paceman"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Mitsubishi",
+         "name": "Mitsubishi",
+         "children": [
+            {
+               "id": "Attrage",
+               "name": "Attrage"
+            },
+            {
+               "id": "ASX",
+               "name": "ASX"
+            },
+            {
+               "id": "Lancer",
+               "name": "Lancer"
+            },
+            {
+               "id": "Outlander",
+               "name": "Outlander"
+            },
+            {
+               "id": "Pajero",
+               "name": "Pajero"
+            },
+            {
+               "id": "Triton",
+               "name": "Triton"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Peugeot",
+         "name": "Peugeot",
+         "children": [
+            {
+               "id": "208",
+               "name": "208"
+            },
+            {
+               "id": "308",
+               "name": "308"
+            },
+            {
+               "id": "408",
+               "name": "408"
+            },
+            {
+               "id": "508",
+               "name": "508"
+            },
+            {
+               "id": "2008",
+               "name": "2008"
+            },
+            {
+               "id": "3008",
+               "name": "3008"
+            },
+            {
+               "id": "5008",
+               "name": "5008"
+            },
+            {
+               "id": "RCZ",
+               "name": "RCZ"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Renault",
+         "name": "Renault",
+         "children": [
+            {
+               "id": "Captur",
+               "name": "Captur"
+            },
+            {
+               "id": "Clio",
+               "name": "Clio"
+            },
+            {
+               "id": "Fluence",
+               "name": "Fluence"
+            },
+            {
+               "id": "Koleos",
+               "name": "Koleos"
+            },
+            {
+               "id": "Megane",
+               "name": "Megane"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Subaru",
+         "name": "Subaru",
+         "children": [
+            {
+               "id": "Forester",
+               "name": "Forester"
+            },
+            {
+               "id": "Outback",
+               "name": "Outback"
+            },
+            {
+               "id": "WRX",
+               "name": "WRX"
+            },
+            {
+               "id": "XV",
+               "name": "XV"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Volkswagen",
+         "name": "Volkswagen",
+         "children": [
+            {
+               "id": "Beetle",
+               "name": "Beetle"
+            },
+            {
+               "id": "Golf",
+               "name": "Golf"
+            },
+            {
+               "id": "Jetta",
+               "name": "Jetta"
+            },
+            {
+               "id": "Passat",
+               "name": "Passat"
+            },
+            {
+               "id": "Polo",
+               "name": "Polo"
+            },
+            {
+               "id": "Tiguan",
+               "name": "Tiguan"
+            },
+            {
+               "id": "Toureg",
+               "name": "Toureg"
+            },
+            {
+               "id": "Vento",
+               "name": "Vento"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Volvo",
+         "name": "Volvo",
+         "children": [
+            {
+               "id": "S60",
+               "name": "S60"
+            },
+            {
+               "id": "S90",
+               "name": "S90"
+            },
+            {
+               "id": "V40",
+               "name": "V40"
+            },
+            {
+               "id": "V60",
+               "name": "V60"
+            },
+            {
+               "id": "XC40",
+               "name": "XC40"
+            },
+            {
+               "id": "XC60",
+               "name": "XC60"
+            },
+            {
+               "id": "XC90",
+               "name": "XC90"
+            },
+            {
+               "id": "Others",
+               "name": "Others"
+            }
+         ]
+      },
+      {
+         "id": "Others",
+         "name": "Others",
+         "children": []
+      }
+   ]
+}

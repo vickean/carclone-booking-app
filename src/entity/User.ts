@@ -1,7 +1,7 @@
 import { Entity, BaseEntity, PrimaryGeneratedColumn, Column } from "typeorm";
 
 @Entity({ name: "c_users" })
-export class Users extends BaseEntity {
+export class User extends BaseEntity {
    @PrimaryGeneratedColumn("uuid")
    id: string;
 
@@ -13,6 +13,12 @@ export class Users extends BaseEntity {
 
    @Column()
    phoneNum: string;
+
+   @Column()
+   carBrand: string;
+
+   @Column()
+   carModel: string;
 
    @Column()
    createdTs: Date;
