@@ -1,20 +1,27 @@
-import * as express from "express";
-import * as Database from "better-sqlite3";
-const db = new Database("carclone.db", { verbose: console.log });
-const app = express();
+import express from "express";
+import "reflect-metadata";
+import { createConnection } from "typeorm";
 
-app.get("/hello", (req, res) => {
-   console.log("HELLO!");
-   res.send("Hello!");
-});
+const main = async () => {
+   await createConnection();
 
-app.get("/create/:id", (req, res) => {
-   const id = req.params.id;
-   console.log("CREATE>>> ", id);
-   res.send(`Sent ID: ${id}`);
-});
+   const app = express();
 
-const server = app.listen(3000, () => {
-   const port = (server.address() as any).port;
-   console.log(`server listening at http://localhost:${port}`);
-});
+   app.get("/hello", (req, res) => {
+      console.log("HELLO!");
+      res.send("Hello!");
+   });
+
+   app.get("/create/:id", (req, res) => {
+      const id = req.params.id;
+      console.log("CREATE>>> ", id);
+      res.send(`Sent ID: ${id}`);
+   });
+
+   const server = app.listen(3000, () => {
+      const port = (server.address() as any).port;
+      console.log(`server listening at http://localhost:${port}`);
+   });
+};
+
+main().catch((err) => console.log(err));

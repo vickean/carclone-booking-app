@@ -1,0 +1,19 @@
+{
+   "compilerOptions": {
+      "incremental": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "lib": ["dom", "es2018", "es5", "es6", "esnext"],
+      "rootDir": ".",
+      "target": "es6",
+      "outDir": "dist",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "typeRoots": ["./node_modules/@types/"],
+      "baseUrl": "src"
+   },
+   "include": ["src/**/*"],
+   "exclude": ["node_modules"]
+}
