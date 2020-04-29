@@ -20,6 +20,6 @@ export class User extends BaseEntity {
    @Column()
    carModel: string;
 
-   @Column()
+   @Column({ default: new Date().toISOString() })
    createdTs: Date;
 }

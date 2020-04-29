@@ -3,6 +3,7 @@
       "incremental": true,
       "experimentalDecorators": true,
       "emitDecoratorMetadata": true,
+      "resolveJsonModule": true,
       "module": "commonjs",
       "moduleResolution": "node",
       "lib": ["dom", "es2018", "es5", "es6", "esnext"],
