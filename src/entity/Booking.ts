@@ -16,4 +16,7 @@ export class Booking extends BaseEntity {
 
    @Column()
    slotNum: number;
+
+   @Column({ default: new Date().toISOString() })
+   createdTs: Date;
 }

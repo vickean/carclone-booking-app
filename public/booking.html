@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <h2>Booking Form</h2>
+
+      <form action="/timeslot" method="POST">
+         <label for="dateTime">Date & Time:</label><br />
+         <input type="text" id="dateTime" name="dateTime" /><br />
+
+         <label for="location">Location:</label><br />
+         <input type="text" id="location" name="location" /><br />
+
+         <label for="slotNum">Slot No.:</label><br />
+         <input type="text" id="slotNum" name="slotNum" /><br /><br />
+
+         <input type="hidden" id="userId" name="userId" />
+
+         <input type="submit" value="Submit" />
+      </form>
+   </body>
+</html>
+<script>
+   const queryString = window.location.search;
+   const urlParams = new URLSearchParams(queryString);
+   const userId = urlParams.get("id");
+   console.log(userId);
+   document.getElementById("userId").value = userId;
+</script>
