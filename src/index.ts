@@ -13,12 +13,19 @@ import {
    addHours,
    addMinutes,
 } from "date-fns";
+import cors from "cors";
 
 const main = async () => {
    await createConnection();
 
    const app = express();
 
+   app.use(
+      cors({
+         origin: ["http://localhost:3000"],
+         credentials: true,
+      })
+   );
    app.use(express.json());
    app.use(express.urlencoded({ extended: true }));
    app.use("/static", express.static("public"));
@@ -122,7 +129,7 @@ const main = async () => {
       res.send("<a href='http://localhost:3000/static/index.html'>Received</a>");
    });
 
-   const server = app.listen(3000, () => {
+   const server = app.listen(4000, () => {
       const port = (server.address() as any).port;
       console.log(`server listening at http://localhost:${port}`);
    });
