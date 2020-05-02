@@ -5,7 +5,14 @@ import cars from "../assets/cars.json";
 import locations from "../assets/locations.json";
 import { User } from "entity/User";
 import { Booking } from "entity/Booking";
-import { addDays } from "date-fns";
+import {
+   addDays,
+   differenceInHours,
+   format,
+   formatISO,
+   addHours,
+   addMinutes,
+} from "date-fns";
 
 const main = async () => {
    await createConnection();
@@ -30,16 +37,58 @@ const main = async () => {
       res.json(cars);
    });
 
-   app.post("/available-slots", (req, res) => {
-      const startTime = new Date("1982-01-01T01:00:00.00Z");
-      const endTime = new Date("1982-01-01T10:00:00.00Z");
-      const startDate = new Date();
-      const endDate = addDays(new Date(), 14);
+   app.get("/available-slots", (req, res) => {
+      const startTime = new Date("1982-01-01T01:00:00.00Z"); // 9AM +8GMT
+      const endTime = new Date("1982-01-01T10:00:00.00Z"); // 6PM +8GMT
 
-      // WORK IN PROGRESS
-      // implement generator function
+      const dayHours = differenceInHours(endTime, startTime); // 9 hours
+      const noOfSlotGroups = dayHours * 2; // 18 slot groups
 
-      res.json({ test: "hello" });
+      const daysArr = [...Array(14).keys()];
+      const slotGroups = [...Array(noOfSlotGroups).keys()];
+
+      // creates array of days with slotGroups
+      const dateArr = daysArr.map((el) => {
+         const date = addDays(new Date(), el);
+         const day = date.getDay();
+         const slotsPerGroup = day < 6 && day > 0 ? 2 : 4;
+
+         // creates array of slotGroups with slots
+         const slotGrpArr = slotGroups.map((el2) => {
+            const sltDate = formatISO(date, { representation: "date" });
+            const sltTime = formatISO(addMinutes(startTime, 30 * el2), {
+               representation: "time",
+            });
+            const time = new Date(`${sltDate}T${sltTime}`);
+
+            const sltGroup = [...Array(slotsPerGroup).keys()].map((el3) => {
+               return {
+                  slotNo: el3 + 1,
+                  available: true,
+               };
+            });
+
+            const slotGrpObj = {
+               time,
+               slots: sltGroup,
+            };
+
+            return slotGrpObj;
+         });
+
+         const returnObj = {
+            date,
+            day,
+            slotsPerGroup,
+            slotGrpArr,
+         };
+
+         return returnObj;
+      });
+
+      //Pending check db if slot Taken, if yes, set "available" to false.
+
+      res.json(dateArr);
    });
 
    app.post("/user", async (req, res) => {
