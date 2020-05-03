@@ -1,19 +1,17 @@
-{
-   "locations": [
-      {
-         "name": "Centre A"
-      },
-      {
-         "name": "Centre B"
-      },
-      {
-         "name": "Centre C"
-      },
-      {
-         "name": "Centre D"
-      },
-      {
-         "name": "Centre E"
-      }
-   ]
-}
+[
+   {
+      "name": "Centre A"
+   },
+   {
+      "name": "Centre B"
+   },
+   {
+      "name": "Centre C"
+   },
+   {
+      "name": "Centre D"
+   },
+   {
+      "name": "Centre E"
+   }
+]
